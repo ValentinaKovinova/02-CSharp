@@ -20,8 +20,9 @@ for (int i = 0; i < array.Length; i++)
         break;
     }
 }
-string result = isExistNum == true ? "Да" : "Нет";
-Console.WriteLine(result);
+//string result = isExistNum == true ? "Да" : "Нет";
+//Console.WriteLine(result);
+Console.WriteLine(isExistNum == true ? "Да" : "Нет");
 
 
 
